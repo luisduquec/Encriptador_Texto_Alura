@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scrip.js"></script>
+</head>
+<body class="ser">
+    <section class="izquierda">
+        <header>
+            <img class="logo" src="assets/Logo.png" alt="">
+        </header>
+        <textarea type="text" placeholder="Ingrese el texto aqui" class="ingrese" id="textBox"></textarea>
+        <footer class="des">
+            <section class="info">
+                <img src="assets/Vector.png" alt="" width="16", height="16">Solo letras minúsculas y sin acentos
+                <p></p>
+            </section>
+            
+            <div class="botones">
+                <button onclick="Encriptar()" class="botonEncriptar" >Encriptar</button>
+                <button onclick="Desencriptar()" class="botonDesencriptar" >Desencriptar</button>
+            </div>
+        </footer>
+    </section>
+    <div class="rectangle1" id="rect1">
+        <p class="traduccion" id="textotraducido"></p>
+        <section class="rectangle2" id="rect2">
+            <img src = "assets/Muñeco.png">
+            <section class="texto3">
+                <p class="texto1">
+                    <strong >Ningun mensaje fue encontrado</strong>
+                </p>
+                <p class="texto2">Ingrese el texto que desees encriptar o desencriptar</p>
+            </section>
+        </section>
+    </div>
+</body>
+</html>

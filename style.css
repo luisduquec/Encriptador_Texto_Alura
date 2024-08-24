@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }  
+
+  textarea {
+    resize: none;
+  }
+
+*{
+    font-family: "Inter", sans-serif;;
+}
+
+.ser{
+    background-color: #F3F5FC;
+    display: flex;
+    gap: 20;
+}
+
+.izquierda{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 700px;
+}
+
+.logo{
+    margin: 40px;
+}
+
+
+.ingrese{
+    height: 300px;
+    width: 500px;
+    box-sizing: border-box;
+    margin: 0px 150px;
+    font-size: 32px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+
+.des{
+    display:flex;
+    flex-direction: column;
+    align-items:flex-end;
+    gap: 12px;
+    margin: 10px 50px;
+    
+
+}
+
+.info{
+    display: flex;
+    height: 28px;
+    width: 680px;
+    font-size: 12px;
+    height: 25px;
+    color: #495057;
+    
+
+}
+
+.botones{
+    display: flex;
+    width: 680px;
+    height: 67px;
+    justify-content: space-between;
+    gap: 24px;
+
+}
+
+.botonEncriptar{
+    text-decoration: none;
+    background-color: #0A3871;
+    width: 328px;
+    color: white;
+    border-radius: 24px;
+    text-align: center;
+    padding: 24px 0px;
+
+}
+
+.botonDesencriptar{
+    text-decoration: none;
+    background-color: #D8DFE8;
+    width: 328px;
+    color: #0A3871;
+    border-radius: 24px;
+    text-align: center;
+    padding: 24px 0px;
+
+}
+
+.traduccion{
+    height: 40px;
+    border-radius: 32px;
+    margin: 0px 10px;
+}
+
+.rectangle1{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    height: 650px;
+    width: 400px;
+    justify-content: center;
+    /*justify-content: flex-start;*/
+    border-radius: 32px;
+    margin: 40px;
+    /*font-size: 32px;*/
+}
+
+
+.rectangle2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 458;
+    width: 336;
+    margin: 32px;
+}
+
+.texto1{
+    color: #343A40;
+    font-size: 24px;
+    text-align: center;
+}
+
+.texto2{
+    color: #495057;
+    font-size: 16px;
+    text-align: center;
+}
+
+.texto3{
+    display: flex;
+    flex-direction: column;
+
+
+}
