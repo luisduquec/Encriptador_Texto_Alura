@@ -15,7 +15,7 @@ function Encriptar_Desencriptar(texto, Encriptar){
         let changes = {"ai": "a", "enter": "e", "imes": "i", "ober": "o", "ufat": "u"};
         for (let item of Object.keys(changes)){
             if (texto.includes(item)){
-                texto = texto.replace(item, changes[item])
+                texto = texto.replaceAll(item, changes[item])
             }
         }
         conversion = texto
